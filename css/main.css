@@ -1,0 +1,454 @@
+/* Start Global Rules*/
+body {font-family: 'Open Sans', sans-serif;}
+
+/* Start Navbar*/
+.scrolled {background-color: rgba(0, 0, 0, .8);}
+
+.navbar .navbar-brand {font-weight: bold; font-size: 30px; color: #fff;}
+
+.navbar a span {font-weight: normal; }
+
+/* Start Header */
+.header 
+{
+    background: url(../images/header.PNG) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    color: #fff;
+}
+
+.header .overlay
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.centering-vh {margin-top: 19vh;}
+
+.header h1 {font-weight: bold; font-size: 50px;}
+
+.header h1 span {font-weight: normal;}
+
+.header h1 ~ .lead {font-size: 37px;}
+
+.header h1 ~ .lead:after
+{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: #fff;
+    margin: 25px 0;
+}
+
+.header button
+{
+    background: transparent;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    padding: 7px 25px;
+}
+
+.header form
+{
+    width: 360px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header form h2
+{
+    background-color: #f5f5f5;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header form .form-control 
+{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto 35px;
+}
+
+.header input[type="password"] { margin-bottom: 50px;}
+
+.header input[type="submit"] 
+{
+    background-color: #ff8b38;
+    padding: 15px;
+    border-radius: 0;
+}
+
+/* Start Social Media*/
+.social-section
+{
+    padding: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: -2px -5px 13px #000;
+    -moz-box-shadow: -2px -5px 13px #000;
+    -o-box-shadow: -2px -5px 13px #000;
+    box-shadow: -2px -5px 13px #000;
+}
+
+.social-section h4 {font-weight: bold; margin-bottom: 5px;}
+
+.social-section p {line-height: 1.4; color: #a1a1a1;}
+
+.social-section i 
+{
+    color: #ccc;
+    margin: 20px 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.social-section .fa-facebook-f:hover {color: #3b5998;}
+.social-section .fa-twitter:hover {color: #1da1f2;}
+.social-section .fa-google-plus-g:hover {color: #dd493b;}
+.social-section .fa-pinterest:hover {color: #bd081c;}
+.social-section .fa-instagram:hover {color: #5851db;}
+.social-section .fa-stumbleupon:hover {color: #eb4924;}
+.social-section .fa-rss:hover {color: #f26522;}
+
+/* Tabs Section*/
+.tabs-section {background-color: #f5f5f5;}
+
+.tabs-section .tab-switch li
+{
+    background-color: #333;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width:130px;
+    height: 130px;
+    line-height: 130px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tabs-section .tab-switch li.selected,
+.tabs-section .tab-switch li:hover {background-color: #ff8b38;}
+
+.tabs-section .tabs-content h3 
+{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+
+.tabs-section .tabs-content p
+{
+    line-height: 1.6;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+.tabs-section .tabs-content .par {margin-top: 25px;}
+
+.tabs-section .tabs-content button
+{
+    background-color: #ff8b38;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+
+.tabs-section .tabs-content div:not(.tab-one) {display: none;}
+
+/*Start Sublist Section*/
+.sublist .sub-image {margin-top: 40px;}
+
+.sublist h3, .standard-picture h3 {font-weight: bold; font-size: 26px;}
+
+.sublist .sub-desc, .standard-picture .standard-desc 
+{
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.sublist .list-icon {margin-bottom: 15px;overflow: hidden;}
+
+.sublist .list-icon i
+{
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+        text-align: center;
+        border: 2px solid #ff8b38;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: 15px;
+}
+
+.sublist .list-icon .text-info { width: calc(100% - 70px);}
+
+.sublist .list-icon .text-info h4 {font-weight: bold; color: #333;}
+.sublist .list-icon .text-info p {color: #777;}
+
+/*Start Standard Picture*/
+.standard-picture {background-color: #f5f5f5;}
+
+.standard-picture h3 {margin-top: 40px;}
+
+/*Start Awesome Section*/
+.awesome h2 {font-size: 35px; font-weight: bold;}
+
+.awesome-desc {color: #777; margin-bottom: 50px;}
+
+.awesome i
+{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+}
+
+.awesome .feat-head {font-weight: bold; margin: 25px 0;}
+
+/*Start Price Options Section*/
+.price-options {background-color: #f5f5f5;}
+
+.price-options h2 {font-weight: bold; font-size: 32px;}
+
+.price-options .price-desc {color: #777; margin-bottom: 50px;}
+
+.price-options .price-box {background-color: #fff;}
+
+.price-options .price-box .plan-head
+{
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    margin: 0;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.price-options .price-box .options
+{
+    background-color: #333;
+    padding: 10px 0;
+    border-bottom: 5px solid #ff8b38;
+}
+
+.price-options .price-box .options .price
+{
+    display: block;
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.price-options .price-box .options .price .usd {font-size: 40px;}
+
+.price-options .price-box .options .period
+{
+    color: #adadad;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.price-options .configuration li
+{
+    padding: 12px;
+    border-bottom: 1px solid #f5f5f5;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+
+.price-options .most-pop
+{
+    background-color: #ff8b38;
+    color: #fff;
+    padding: 5px 10px 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.price-options .basic, .price-options .enterprise {margin-top: 35px;}
+
+/*Start Testimonials*/
+.testimonials h2 {font-weight: bold; font-size: 32px;}
+
+.testimonials .test-desc {color: #777; margin-bottom: 50px;}
+
+.testimonials .client-say 
+{
+    background-color: #f5f5f5;
+    color: #8e8f93;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.testimonials .client-say:after
+{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #f5f5f5 transparent transparent;
+    position: absolute;
+    bottom: -28px;
+    left: 26px;
+}
+
+.testimonials .media-head {font-weight: bold;font-size: 20px;margin-top: 20px;}
+
+.testimonials .media-body p {color: #a9aaac;}
+
+/*Start Stylish*/
+.stylish 
+{
+    background: url(../images/stylish.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    min-height: 320px;
+}
+
+.stylish .header-border-center:after {background-color: #fff;}
+
+.stylish .overlay
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 60px 0;
+}
+
+.stylish h2 {font-weight: bold; font-size: 32px;}
+
+.stylish .stylish-desc {color: #a9aaac; margin-bottom: 30px;}
+
+.stylish .stylish-btn
+{
+    background: transparent;
+    display: block;
+    margin: 30px auto;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+}
+
+/*Start Contac Us*/
+.contact-us h2 {font-weight: bold; font-size: 34px;}
+
+.contact-us .contact-desc {color: #777; margin-bottom: 50px;}
+
+.contact-us .contact-btn
+{
+    background: #ff8b38;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-us .contact {margin-top: 70px;}
+
+.contact-us form input[type="text"],
+.contact-us form input[type="email"],
+.contact-us form textarea
+{
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.contact-us form input[type="text"],
+.contact-us form input[type="email"]
+{
+    margin-bottom: 20px;
+}
+
+.contact-us form textarea {height: 178px;}
+
+/*Start Footer*/
+.footer {background-color: #000;color: #868686;padding: 20px;}
+
+.footer .footer-icon {margin-bottom: 5px;}
+
+.footer .footer-icon i {font-size: 25px;color: #ccc;margin: 10px; }
+
+/* Start Framework */
+.main-color{color: #ff8b38;}
+
+.main-padding {padding: 70px 0;}
+
+.uppercase {text-transform: uppercase;}
+
+.header-border:after,
+.header-border-center:after
+{
+    content: ' ';
+    display: block;
+    width: 85px;
+    height: 3px;
+    background-color: #ff8b38;
+    margin: 25px 0;
+}
+
+.header-border-center:after {margin: 25px auto;}
+
+@media(max-width: 991px)
+{ 
+    .header-border:after {margin: 25px auto;}
+    .header {height: 150vh;}
+    .centering-vh {margin-top: 80px;}
+    .header h1 ~ .lead:after {margin: 25px auto;}
+    .header button {display: block;margin: 20px auto;}
+    .header .text-center-xs {text-align: center;}
+    .social-section h4 {margin-bottom: 10px;}
+    .social-section i {margin: 10px 15px;}
+    .social-section {text-align: center;}
+    .tabs-section {text-align: center;}
+    .tabs-section .tab-switch li {width: 100%;height: 100%;}
+    .tabs-section .tabs-content h3 {margin: 30px 0 20px;}
+    .sublist {text-align: center;padding: 40px 0;}
+    .sublist .list-icon i {float: none !important;margin: 10px 0;}
+    .sublist .list-icon .text-info {float: none !important;width: 100%;}
+    .standard-picture {text-align: center;padding: 40px 0;}
+    .price-options {padding: 40px 0;}
+    .price-options .price-desc {margin-bottom: 10px;}
+    .price-options .price-box {margin-bottom: 30px;}
+    .testimonials {padding: 40px 0;}
+    .testimonials .media {margin-bottom: 30px;}
+    .stylish .overlay {padding: 30px 0;}
+    .contact-us {padding: 40px 0;}
+}
